@@ -10,7 +10,7 @@ spec:
   system: backstage-workshop
 ---
 apiVersion: backstage.io/v1alpha1
-Kind: Group
+kind: Group
 metadata:
   name: stagecentral
 spec:
