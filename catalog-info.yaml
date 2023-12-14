@@ -8,3 +8,11 @@ spec:
   lifecycle: production
   owner: stagecentral
   system: backstage-workshop
+---
+apiVersion: backstage.io/v1alpha1
+Kind: Group
+metadata:
+  name: stagecentral
+spec:
+  type: workshop-group
+  members: [mfarley281]
